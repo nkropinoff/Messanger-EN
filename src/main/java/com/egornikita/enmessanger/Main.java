@@ -7,7 +7,8 @@ public class Main {
         User[] users = UserService.create4Users();
         printInfoAboutUsers(users);
 
-
+        Message[] messages = MessageService.create4Message(users);
+        printInfoAboutMessages(messages);
     }
 
     public static void printInfoAboutUsers(User[] users) {
