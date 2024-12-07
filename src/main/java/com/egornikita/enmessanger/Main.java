@@ -4,6 +4,9 @@ import com.egornikita.enmessanger.model.*;
 
 public class Main {
     public static void main(String[] args) {
+        User[] users = UserService.create4Users();
+        printInfoAboutUsers(users);
+
 
     }
 
